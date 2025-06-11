@@ -1,0 +1,223 @@
+{
+  "courses": [
+    { "id": 101, "name": "Python Full Stack" },
+    { "id": 102, "name": "Java Full Stack" },
+    { "id": 103, "name": "Data Science" }
+  ],
+
+  "batches": [
+    {
+      "id": 201,
+      "courseId": 101,
+      "name": "Python FS - June 2023 Batch",
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-01",
+      "trainer": "Mr. Ramesh",
+      "trainerEmail": "ramesh.trainer@example.com"
+    },
+    {
+      "id": 202,
+      "courseId": 102,
+      "name": "Java FS - July 2023 Batch",
+      "startDate": "2023-07-10",
+      "endDate": "2024-01-10",
+      "trainer": "Ms. Kavita",
+      "trainerEmail": "kavita.trainer@example.com"
+    },
+    {
+      "id": 203,
+      "courseId": 103,
+      "name": "Data Science - May 2023 Batch",
+      "startDate": "2023-05-20",
+      "endDate": "2023-11-20",
+      "trainer": "Dr. Ayesha",
+      "trainerEmail": "ayesha.trainer@example.com"
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "phone": "9876543210",
+      "email": "rahul.sharma@example.com",
+      "joinedOn": "2023-07-15",
+      "photoUrl": "https://example.com/photos/rahul.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Anjali Verma",
+      "phone": "9123456780",
+      "email": "anjali.verma@example.com",
+      "joinedOn": "2023-08-01",
+      "photoUrl": "https://example.com/photos/anjali.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Karan Mehta",
+      "phone": "9012345678",
+      "email": "karan.mehta@example.com",
+      "joinedOn": "2023-06-20",
+      "photoUrl": "https://example.com/photos/karan.jpg"
+    }
+  ],
+
+  "studentBatches": [
+    {
+      "studentId": 1,
+      "batchId": 201,
+      "status": "active",
+      "leaveSummaryStats": {
+        "onTime": 250,
+        "lateAttendance": 4,
+        "workFromHome": 100,
+        "absent": 2,
+        "sickLeaves": 3,
+        "performanceMessage": "Better than 80% of students"
+      },
+      "leaveBreakdownStats": {
+        "totalLeaves": 5,
+        "absent": 1,
+        "workedDays": 90,
+        "takenLeaves": 3,
+        "leaveRequests": 1,
+        "lossOfPay": 0
+      },
+      "workHourStats": {
+        "todayHours": "7.8/9",
+        "weekHours": "30/40",
+        "monthHours": "80/98",
+        "overtimeMonth": "12/28",
+        "totalWorkingHours": "120h 15m",
+        "breakHours": "20m 12s",
+        "overtime": "01h 00m"
+      },
+      "attendanceRecords": [
+        { "date": "2024-06-01", "status": "Present" },
+        { "date": "2024-06-02", "status": "Absent" }
+      ],
+      "courseValuations": {
+        "trainerRating": 4.5,
+        "courseRating": 4.7,
+        "remarks": "Very practical and well-paced"
+      }
+    },
+    {
+      "studentId": 1,
+      "batchId": 203,
+      "status": "completed",
+      "leaveSummaryStats": {
+        "onTime": 150,
+        "lateAttendance": 5,
+        "workFromHome": 50,
+        "absent": 2,
+        "sickLeaves": 2,
+        "performanceMessage": "Better than 70% of students"
+      },
+      "leaveBreakdownStats": {
+        "totalLeaves": 4,
+        "absent": 1,
+        "workedDays": 60,
+        "takenLeaves": 2,
+        "leaveRequests": 1,
+        "lossOfPay": 0
+      },
+      "workHourStats": {
+        "todayHours": "8.0/9",
+        "weekHours": "25/40",
+        "monthHours": "70/98",
+        "overtimeMonth": "10/28",
+        "totalWorkingHours": "100h 05m",
+        "breakHours": "15m 05s",
+        "overtime": "00h 40m"
+      },
+      "attendanceRecords": [
+        { "date": "2024-05-10", "status": "Present" },
+        { "date": "2024-05-11", "status": "Late" }
+      ],
+      "courseValuations": {
+        "trainerRating": 4.2,
+        "courseRating": 4.4,
+        "remarks": "Challenging but rewarding"
+      }
+    },
+    {
+      "studentId": 2,
+      "batchId": 202,
+      "status": "active",
+      "leaveSummaryStats": {
+        "onTime": 300,
+        "lateAttendance": 10,
+        "workFromHome": 180,
+        "absent": 3,
+        "sickLeaves": 5,
+        "performanceMessage": "Better than 85% of students"
+      },
+      "leaveBreakdownStats": {
+        "totalLeaves": 6,
+        "absent": 1,
+        "workedDays": 100,
+        "takenLeaves": 4,
+        "leaveRequests": 0,
+        "lossOfPay": 1
+      },
+      "workHourStats": {
+        "todayHours": "7.2/9",
+        "weekHours": "28/40",
+        "monthHours": "75/98",
+        "overtimeMonth": "8/28",
+        "totalWorkingHours": "115h 00m",
+        "breakHours": "18m 30s",
+        "overtime": "00h 55m"
+      },
+      "attendanceRecords": [
+        { "date": "2024-06-01", "status": "Present" },
+        { "date": "2024-06-03", "status": "Work From Home" }
+      ],
+      "courseValuations": {
+        "trainerRating": 4.8,
+        "courseRating": 4.9,
+        "remarks": "Excellent content and instruction"
+      }
+    },
+    {
+      "studentId": 3,
+      "batchId": 201,
+      "status": "active",
+      "leaveSummaryStats": {
+        "onTime": 200,
+        "lateAttendance": 6,
+        "workFromHome": 120,
+        "absent": 4,
+        "sickLeaves": 6,
+        "performanceMessage": "Better than 65% of students"
+      },
+      "leaveBreakdownStats": {
+        "totalLeaves": 7,
+        "absent": 2,
+        "workedDays": 80,
+        "takenLeaves": 5,
+        "leaveRequests": 1,
+        "lossOfPay": 1
+      },
+      "workHourStats": {
+        "todayHours": "8.6/9",
+        "weekHours": "29/40",
+        "monthHours": "72/98",
+        "overtimeMonth": "9/28",
+        "totalWorkingHours": "108h 50m",
+        "breakHours": "22m 00s",
+        "overtime": "01h 15m"
+      },
+      "attendanceRecords": [
+        { "date": "2024-06-01", "status": "Present" },
+        { "date": "2024-06-04", "status": "Sick Leave" }
+      ],
+      "courseValuations": {
+        "trainerRating": 4.1,
+        "courseRating": 4.3,
+        "remarks": "Good but needs more projects"
+      }
+    }
+  ]
+}
